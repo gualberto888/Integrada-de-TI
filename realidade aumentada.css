@@ -1,0 +1,89 @@
+body{
+    max-width: 1200px; /* Define a largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo na tela */
+    padding: 10px; /* Adiciona um espaço uniforme ao redor do conteúdo */
+    line-height: 1.5; /* Espaçamento entre linhas padrão */
+    background-image: url('/rv/uu.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    color: white;
+  
+  
+}
+
+.titulo{ 
+    font-size: 60px;
+    background-image: url('');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+.caracteristica{
+    font-size: 22px;
+    text-align: justify;
+}
+
+.p{
+    font-size: 22px;
+    text-align: justify;
+}
+
+.conclusao{
+    font-size: 22px;
+    font-weight: bold;
+    color: inherit;
+}
+
+.lista{
+    font-size: 22px;
+    
+}
+
+.va{
+    font-size: 22px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.buttom{
+  
+    text-decoration: none;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    background: none;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1;
+    color: palevioletred;
+    
+  }
+  
+  .buttom:hover{
+    background-color: rgb(255, 255, 255);
+  }
+  
+.su{
+    font-size: 40px;
+}
+
+
+.a{
+    text-decoration: none;
+    text-align: center;
+    color: palevioletred
+  }
