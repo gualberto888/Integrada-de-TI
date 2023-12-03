@@ -1,0 +1,81 @@
+body{
+    max-width: 1200px; /* Define a largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo na tela */
+    padding: 10px; /* Adiciona um espaço uniforme ao redor do conteúdo */
+    line-height: 1.5; /* Espaçamento entre linhas padrão */
+    background-image: url('/rv/uu.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    color: white;
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui a borda e o preenchimento no cálculo do tamanho do elemento */
+  
+    
+  }
+
+.titulo-principal{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+
+.sub{
+    font-size: 24px;
+    margin-bottom: 15px; /* Espaçamento inferior comum */
+  }
+  
+.paragrafo{
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: justify; /* Justifica o texto para um layout mais limpo */
+  }
+
+
+.img{
+    width: 100%;
+    height: auto;
+}
+
+.strong{
+    font-size: 22px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+
+
+.buttom{
+  
+    text-decoration: none;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    background: none;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1;
+    color: black;
+    
+  }
+  
+  .buttom:hover{
+    background-color: rgb(255, 255, 255);
+  }
+
+  a{
+    text-decoration: none;
+    text-align: center;
+    color: palevioletred;
+  }
