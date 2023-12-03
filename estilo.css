@@ -1,0 +1,131 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+  
+    
+}
+
+section, footer{
+    padding: 54px 0;
+    background-color: rgb(255, 244, 244);
+    padding: 53px;
+    
+}
+
+h3{
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+    
+}
+
+.btn{
+    text-decoration: none;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    background: none;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1;
+    color: white;
+}
+
+.btn.animate-btn{
+    animation: animate-outline 1s ease-out infinite;
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.427);
+}
+
+@keyframes animate-outline {
+    from{
+        outline: 0px solid blue;
+    }
+    to{
+        outline: 15px solid blue; 
+    }
+}
+
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(7px);
+    height: max-content;
+    height: 100vh; /* Garante que o corpo ocupe a altura total da janela de visualização (viewport) */
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul a{
+    font-weight: bold;
+    margin: 0 25px;
+    font-size: 18px;
+    display: block;
+    color: white;
+   
+}
+
+
+
+.banner{
+    display: flex;
+    justify-content: center;
+    background: none;
+}
+
+.banner .banner-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.banner .banner-text h1{
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.banner .banner-text p{
+    font-size: 20px;
+    color: #111111b7;
+    font-weight: lighter;
+    margin: 18px 0;
+
+}
+
+.header{
+    filter: blur(0px);
+    
+}
+

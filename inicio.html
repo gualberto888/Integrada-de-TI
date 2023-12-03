@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Páginas Tecnologicas</title> 
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+ 
+
+    <!--header-->
+    
+    <header class="header" style="background-image: url('rede.webp');" >
+         <!--container-->
+        <div class="container">
+            <nav >
+
+                </a>
+                <ul class="lista">
+                    <a class="btn" href="/rv/realidade-virtual.html" target="_blank">Realidade Virtual</a>
+                    <a class="btn" href="/ra/realidade aumentada.html" target="_blank">Realidade Aumentada</a>
+                    <a class="btn" href="/ciencia de dados/cn.html">Ciencia de Dados</a>
+                    <a class="btn" href="/iot/iot.html">IOT</a>
+                    <a class="btn" href="/ai/ai.html">IA</a>
+                    <a class="btn" href="/curriculo/curriculo.html" target="_blank">Curriculo Pessoal</a>
+                    <a class="btn" href="/Area-do-conhecimento/materias.html/materia.html" target="_blank">Áreas do Conhecimento</a>
+               
+                </ul>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Página Tecnológica</h1> <br>
+                    <button id="botao" class="btn" type="button" onclick="document.getElementById('botao').innerHTML='Vlw '">
+                   A magica acontece ....
+                    </button>
+                   
+                    <audio class="btn" id="myAudio" loop>
+                        <source src="/rv/Boa Noite Meu Consagrado 💀.mp3" type="audio/mp3">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+        
+                </div>
+
+            </section>
+        </div>
+         <!--end container-->
+
+    </header>
+     <!--end header-->
+     <script>
+        function playMusic() {
+            var audio = document.getElementById("myAudio");
+            audio.play().catch(function(error) {
+                console.error("Erro ao reproduzir áudio:", error);
+            });
+            document.getElementById('botao').innerHTML = 'Vlw';
+        }
+    </script>
+     <div>
+        
+     </div>
+
+
+</body>
+</html>

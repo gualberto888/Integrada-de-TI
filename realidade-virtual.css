@@ -1,0 +1,72 @@
+body{
+    max-width: 1200px; /* Define a largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo na tela */
+    padding: 20px; /* Adiciona um espaço uniforme ao redor do conteúdo */
+    font-size: 16px; /* Tamanho de fonte padrão */
+    line-height: 1.5; /* Espaçamento entre linhas padrão */
+    font-family: Arial, sans-serif; /* Escolha uma família de fontes legível */
+    background-image: url('uu.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255)
+}
+
+.titulo{
+    font-size: 60px;
+    background-image: url('uu.png');
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5px;
+}
+
+.sub{
+    font-size: 40px;
+}
+
+.paragrafo-1{
+    font-size: 22px;
+    text-align: justify;
+}
+
+.paragrafo-2{
+    font-size: 22px;
+    text-align: justify;
+}
+
+
+.im{
+    width: 100%;
+    height: auto;
+}
+
+.a{
+    text-decoration: none;
+    text-align: center;
+    color: palevioletred
+  }
+  
+.buttom{
+  
+    text-decoration: none;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    background: none;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1;
+    color: black;
+    
+  }
+  
+  .buttom:hover{
+    background-color: rgb(255, 255, 255);
+  }
+  
