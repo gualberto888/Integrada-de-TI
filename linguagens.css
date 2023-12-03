@@ -1,0 +1,97 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box; /* Inclui a borda e o preenchimento no cálculo do tamanho do elemento */
+  
+    
+  }
+  
+  body{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-image: url('/Area-do-conhecimento/mat/desktop-wallpaper-light-purple-backgrounds-pink-purple-computer.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .imagens{
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px; /* Espaço entre as divs */
+  }
+  
+  .imagens div{
+    width: 100%;
+  }
+  
+  .imagens img{
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .git{
+    width: 20px;
+    height: 20px;
+  }
+  
+  .a{
+    text-decoration: none;
+    text-align: center;
+    color: palevioletred
+  }
+  
+  .paragrafo{
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: justify; /* Justifica o texto para um layout mais limpo */
+  }
+  
+  
+  
+  .sub{
+    font-size: 24px;
+    margin-bottom: 15px; /* Espaçamento inferior comum */
+  }
+  
+  .titulo-principal{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .buttom{
+    
+    text-decoration: none;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    background: none;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1;
+    color: black;
+    
+  }
+  
+  .buttom:hover{
+    background-color: rgb(255, 255, 255);
+  }
+
+.lista {
+    list-style-type: none;
+    margin-right: 3px;
+    padding: 5px;
+    font-size: 22px;
+}
+
+.lista li {
+    margin-bottom: 10px;
+}
