@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui a borda e o preenchimento no cálculo do tamanho do elemento */   
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+.img-perfil{
+    height: 350px;
+    border-radius: 5px ;
+}
+
+.escolar{
+    margin-bottom: 5px;
+}
+
+.sessao{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.a{
+    text-decoration: none;
+    text-align: center;
+    color: palevioletred
+  }
+
+.buttom{
+  
+    text-decoration: none;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    background: none;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1;
+    color: black;
+    
+  }
+  
+.buttom:hover{
+    background-color: rgb(255, 255, 255);
+  }
